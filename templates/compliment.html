@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <title>Game</title>
+</head>
+<body>
+  <form action="/game">
+    Hello {{ person.title() }}, would you like to play a game?
+    <br>
+    <input type="radio" name="game-choice" value="yes" id="game-yes">
+    <label for="game-yes">Yes</label>
+    <br>
+    <input type="radio" name="game-choice" value="no" id="game-no">
+    <label for="game-no">No</label>
+    <br>
+  <input type="submit" value = "Submit">
+  </form>
+</body>
+</html>
